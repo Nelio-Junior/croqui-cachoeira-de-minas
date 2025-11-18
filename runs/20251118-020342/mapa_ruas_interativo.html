@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_078b68d0812c5906099170446cca163f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_078b68d0812c5906099170446cca163f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_078b68d0812c5906099170446cca163f = L.map(
+                "map_078b68d0812c5906099170446cca163f",
+                {
+                    center: [-22.355105, -45.778291],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1fc53430a76a2e7820d74d1059c2ee59 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1fc53430a76a2e7820d74d1059c2ee59.addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            var circle_marker_373add418ea5b46de3c9bb1faa6dd31f = L.circleMarker(
+                [-22.353157, -45.77446],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_373add418ea5b46de3c9bb1faa6dd31f.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52316b0cd38d6890e5918269792f967e = L.circleMarker(
+                [-22.358388, -45.780192],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_52316b0cd38d6890e5918269792f967e.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1abb7f13761169c60c32e673cb33d59a = L.circleMarker(
+                [-22.35292, -45.78013],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_1abb7f13761169c60c32e673cb33d59a.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c27cbcb76f28168338de2aaa9602ff18 = L.circleMarker(
+                [-22.357962, -45.78683],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_c27cbcb76f28168338de2aaa9602ff18.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ad4caf78209ef1bc7a79e45ecef111e = L.circleMarker(
+                [-22.351165, -45.783206],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_0ad4caf78209ef1bc7a79e45ecef111e.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fdcb0fe9c0efa9dc8c8d714e84b6d84 = L.circleMarker(
+                [-22.34882, -45.777657],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_1fdcb0fe9c0efa9dc8c8d714e84b6d84.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36086a74cb45c04b18e1853a822a8cf4 = L.circleMarker(
+                [-22.348953, -45.777163],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_36086a74cb45c04b18e1853a822a8cf4.bindTooltip(
+                `<div>
+                     Cachoeira de Minas #7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97f67ed7e45146d9cb9a039cbc99ab0b = L.circleMarker(
+                [-22.420434, -45.793586],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_97f67ed7e45146d9cb9a039cbc99ab0b.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59390761a79546b1cb02818a81af116f = L.circleMarker(
+                [-22.420527, -45.793396],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_59390761a79546b1cb02818a81af116f.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7d75945f16c720f92b07d07a24653a05 = L.circleMarker(
+                [-22.423519, -45.790722],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_7d75945f16c720f92b07d07a24653a05.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e6e747f7b328ed7f97bba0a2e503494 = L.circleMarker(
+                [-22.413305, -45.802639],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_8e6e747f7b328ed7f97bba0a2e503494.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fcf562b2ad97111a6af17895fb39ff7 = L.circleMarker(
+                [-22.418076, -45.799652],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_6fcf562b2ad97111a6af17895fb39ff7.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67e86f826bd659feb9c42e2a82b279ff = L.circleMarker(
+                [-22.406359, -45.790989],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_67e86f826bd659feb9c42e2a82b279ff.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_56b26f7fc545ea05d964e0d1cf179cd0 = L.circleMarker(
+                [-22.412808, -45.79374],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_56b26f7fc545ea05d964e0d1cf179cd0.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9cb15299e1bf35448a278c423ee5cd57 = L.circleMarker(
+                [-22.415463, -45.797428],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_9cb15299e1bf35448a278c423ee5cd57.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_17bca416f2f0377f2a1fd33965dcded0 = L.circleMarker(
+                [-22.409698, -45.791252],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_17bca416f2f0377f2a1fd33965dcded0.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e3379daaecfcd4f22e0f93f1a93371ba = L.circleMarker(
+                [-22.414336, -45.800224],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_e3379daaecfcd4f22e0f93f1a93371ba.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_547daf87c2b7b8ab3651304c3c4d1b6f = L.circleMarker(
+                [-22.414454, -45.80163],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_547daf87c2b7b8ab3651304c3c4d1b6f.bindTooltip(
+                `<div>
+                     Conceição dos Ouros #11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e864b7fc5079a38b79ac3c2e88a48215 = L.circleMarker(
+                [-22.218121, -45.925568],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_e864b7fc5079a38b79ac3c2e88a48215.bindTooltip(
+                `<div>
+                     Pouso Alegre #1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d277403dfbc4c93256be8eec59bb7e50 = L.circleMarker(
+                [-22.218866, -45.928614],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_d277403dfbc4c93256be8eec59bb7e50.bindTooltip(
+                `<div>
+                     Pouso Alegre #2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_abdaea98271f58048f932897c1c7599b = L.circleMarker(
+                [-22.212943, -45.916817],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_abdaea98271f58048f932897c1c7599b.bindTooltip(
+                `<div>
+                     Pouso Alegre #3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca7faccd34c6dfd74d30b08c09877977 = L.circleMarker(
+                [-22.227078, -45.939372],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_ca7faccd34c6dfd74d30b08c09877977.bindTooltip(
+                `<div>
+                     Pouso Alegre #4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7f73a221c7feffaa3144a2b74b90501b = L.circleMarker(
+                [-22.278, -45.921499],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_7f73a221c7feffaa3144a2b74b90501b.bindTooltip(
+                `<div>
+                     Pouso Alegre #5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c273161d391d4474f1972c994692a4b4 = L.circleMarker(
+                [-22.245107, -45.874269],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_c273161d391d4474f1972c994692a4b4.bindTooltip(
+                `<div>
+                     Pouso Alegre #6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b70899d2232f5e5fc34160f202d94d6 = L.circleMarker(
+                [-22.24949, -45.930194],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_6b70899d2232f5e5fc34160f202d94d6.bindTooltip(
+                `<div>
+                     Pouso Alegre #7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbd26a14f18dbfab9214b7069c1d80e6 = L.circleMarker(
+                [-22.210471, -45.912058],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_dbd26a14f18dbfab9214b7069c1d80e6.bindTooltip(
+                `<div>
+                     Pouso Alegre #8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9026943c6c8f52c82a6cdd46b162f499 = L.circleMarker(
+                [-22.266063, -45.930216],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_9026943c6c8f52c82a6cdd46b162f499.bindTooltip(
+                `<div>
+                     Pouso Alegre #9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b840cb8259f3930bfea838298e0c966a = L.circleMarker(
+                [-22.261973, -45.937786],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_b840cb8259f3930bfea838298e0c966a.bindTooltip(
+                `<div>
+                     Pouso Alegre #10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9813de2675b44274d96c255f28e3b456 = L.circleMarker(
+                [-22.223416, -45.914665],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_9813de2675b44274d96c255f28e3b456.bindTooltip(
+                `<div>
+                     Pouso Alegre #11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1722064ff4985037906677c3d0030490 = L.circleMarker(
+                [-22.289625, -45.91643],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_1722064ff4985037906677c3d0030490.bindTooltip(
+                `<div>
+                     Pouso Alegre #12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5bb4c6ed28965a285e192629a0b5cb99 = L.circleMarker(
+                [-22.231545, -45.894207],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_5bb4c6ed28965a285e192629a0b5cb99.bindTooltip(
+                `<div>
+                     Pouso Alegre #13
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01ccaec61bae5b0a8281b71633b6b542 = L.circleMarker(
+                [-22.271626, -45.934576],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_01ccaec61bae5b0a8281b71633b6b542.bindTooltip(
+                `<div>
+                     Pouso Alegre #14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e91b4670b87f499bc796a599cd3b4290 = L.circleMarker(
+                [-22.23004, -45.936545],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_e91b4670b87f499bc796a599cd3b4290.bindTooltip(
+                `<div>
+                     Pouso Alegre #15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f95d2bb3f89ed64ad7fb84c39f2e5a73 = L.circleMarker(
+                [-22.272934, -45.935005],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_f95d2bb3f89ed64ad7fb84c39f2e5a73.bindTooltip(
+                `<div>
+                     Pouso Alegre #16
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4c6e773866825cb3e76ea5ca93149c9f = L.circleMarker(
+                [-22.213648, -45.946452],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_4c6e773866825cb3e76ea5ca93149c9f.bindTooltip(
+                `<div>
+                     Pouso Alegre #17
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f815eaa596ac885726f9277f76c5766 = L.circleMarker(
+                [-22.275249, -45.936296],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_6f815eaa596ac885726f9277f76c5766.bindTooltip(
+                `<div>
+                     Pouso Alegre #18
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45e2dc472cdc242006ef75c4cbe3a306 = L.circleMarker(
+                [-22.223416, -45.914665],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_45e2dc472cdc242006ef75c4cbe3a306.bindTooltip(
+                `<div>
+                     Pouso Alegre #19
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_05b5cf1a09df00b63484cf0525d6cbe2 = L.circleMarker(
+                [-22.221959, -45.940129],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_05b5cf1a09df00b63484cf0525d6cbe2.bindTooltip(
+                `<div>
+                     Pouso Alegre #20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d5fd60661a62c33014acdbce1e538639 = L.circleMarker(
+                [-22.21387, -45.918431],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_d5fd60661a62c33014acdbce1e538639.bindTooltip(
+                `<div>
+                     Pouso Alegre #21
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e6a05e6e54920189efb06372fade9c8b = L.circleMarker(
+                [-22.211571, -45.908386],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            circle_marker_e6a05e6e54920189efb06372fade9c8b.bindTooltip(
+                `<div>
+                     Pouso Alegre #22
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dcfde5de6565bf1f4e3a2c64b7903ca0 = L.marker(
+                [-22.355105, -45.778291],
+                {
+}
+            ).addTo(map_078b68d0812c5906099170446cca163f);
+        
+    
+            var icon_a571b11eee36276931c8234dc5d8c8e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dcfde5de6565bf1f4e3a2c64b7903ca0.bindTooltip(
+                `<div>
+                     Bem Avaliado
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dcfde5de6565bf1f4e3a2c64b7903ca0.setIcon(icon_a571b11eee36276931c8234dc5d8c8e5);
+            
+</script>
+</html>
